@@ -3,10 +3,11 @@ document.addEventListener("DOMContentLoaded", function(){
    
    let tamanhoAtualfonte=1;
 
-   aumentaFonteBotao.addEventListener('click',function({
-   tamanhoAtualfonte +=0,1;
+   aumentaFonteBotao.addEventListener('click',function(){
+   tamanhoAtualfonte += 0,1;
+   document.body.style.fontSize ='${tamanhoAtualFonte}rem'
 
-   }))
+   })
    
 
 })
